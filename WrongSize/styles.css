@@ -1,0 +1,351 @@
+.fullad{
+    overflow: hidden;
+    position: absolute;
+    height:300px;
+    width:250px;
+    border-style: solid;
+    border-width: thin;
+    font-weight: bold;
+}
+
+.copy1{
+    position: absolute;
+    height:90px;
+    width:250px;
+    z-index: 10;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #3bb3e3;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    animation-delay: 6s;
+    animation-name: hideElement;
+    animation-fill-mode: forwards;
+}
+
+.copy2{
+    position: absolute;
+    height:0;
+    width:250px;
+    z-index: 9;
+    text-align: center;
+    background-color: #3bb3e3;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    animation: 
+        scene2c2 1.5s 6s forwards,
+        hideElement 0s 16s forwards;
+}
+
+.copy3{
+    position: absolute;
+    height:0;
+    width:250px;
+    z-index: 10;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #3bb3e3;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    animation: 
+        scene3c3 1.5s 16s forwards;
+    vertical-align: middle;
+}
+
+.copy4{
+    position: absolute;
+    height:0;
+    width:250px;
+    z-index: 10;
+    text-align: center;
+    background-color: #3bb3e3;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    animation: 
+        scene2c2 1.5s 24s ease-in forwards;
+}
+
+.copy5{
+    position: absolute;
+    height:0;
+    width:250px;
+    z-index: 10;
+    text-align: center;
+    background-color: #3bb3e3;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    animation: 
+        scene2c2 1.5s 33s forwards;
+}
+
+.copyline{
+    position: static;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */  
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */   
+    font-size: 24;
+    letter-spacing: 4px;
+}
+
+.line1{
+    animation-fill-mode: both;
+    animation-name: rise;
+    animation-delay: 1s;
+    animation-duration: 1.5s;    
+}
+
+.line2{
+    animation-fill-mode: both;
+    animation-delay: 2s;
+    animation-name: rise;
+    animation-duration: 1.5s; 
+}
+
+.line3{
+
+    animation-fill-mode: both;
+    animation-delay: 3s;
+    animation-name: rise;
+    animation-duration: 1.5s;     
+}
+
+.line4{
+    padding-top: 50px;
+    animation-fill-mode: both;
+    animation-delay: 8s;
+    animation-name: rise;
+    animation-duration: 1.5s;     
+}
+
+.line5{
+
+    animation-fill-mode: both;
+    animation-delay: 8.5s;
+    animation-name: rise;
+    animation-duration: 1.5s;     
+}
+
+.line6{
+
+    animation-fill-mode: both;
+    animation-delay: 9s;
+    animation-name: rise;
+    animation-duration: 1.5s;     
+}
+
+.line7{
+
+    animation-fill-mode: both;
+    animation-delay: 9.5s;
+    animation-name: rise;
+    animation-duration: 1.5s;     
+}
+
+.line8{
+
+    animation-fill-mode: both;
+    animation-delay: 10s;
+    animation-name: rise;
+    animation-duration: 1.5s;     
+}
+
+.line9{
+
+    animation-fill-mode: both;
+    animation-delay: 10.5s;
+    animation-name: rise;
+    animation-duration: 1.5s;     
+}
+
+.line10{
+
+    animation-fill-mode: both;
+    animation-delay: 18s;
+    animation-name: rise;
+    animation-duration: 1.5s;     
+}
+
+.line11{
+
+    animation-fill-mode: both;
+    animation-delay: 19s;
+    animation-name: rise;
+    animation-duration: 1.5s;     
+}
+
+.line12{
+
+    animation-fill-mode: both;
+    animation-delay: 20s;
+    animation-name: rise;
+    animation-duration: 1.5s;     
+}
+
+.line13{
+
+    animation-fill-mode: both;
+    animation-delay: 25s;
+    animation-name: rise;
+    animation-duration: 1.5s;     
+}
+
+.line14{
+
+    animation-fill-mode: both;
+    animation-delay: 26s;
+    animation-name: rise;
+    animation-duration: 1.5s;     
+}
+
+.line15{
+
+    animation-fill-mode: both;
+    animation-delay: 27s;
+    animation-name: rise;
+    animation-duration: 1.5s;     
+}
+
+.line16{
+
+    animation-fill-mode: both;
+    animation-delay: 28s;
+    animation-name: rise;
+    animation-duration: 1.5s;     
+}
+
+.line17{
+
+    animation-fill-mode: both;
+    animation-delay: 34s;
+    animation-name: rise;
+    animation-duration: 1.5s;     
+}
+
+.line18{
+
+    animation-fill-mode: both;
+    animation-delay: 35s;
+    animation-name: rise;
+    animation-duration: 1.5s;     
+}
+
+.line19{
+
+    animation-fill-mode: both;
+    animation-delay: 36s;
+    animation-name: rise;
+    animation-duration: 1.5s;     
+}
+
+.line20{
+    padding-top:15px;
+    animation: 
+        rise 1.5s 38s both,
+        pulse 3s 40s 10 ease-in-out forwards;    
+}
+
+.wrapper{
+    position: absolute;
+    overflow: hidden;
+    top: 90px;
+    height:180px;
+}
+
+.shatner1{
+    object-fit: fill;
+    position: static;
+    object-position: top left;
+    z-index: -1;
+    animation: 
+        imgZoom 6s forwards,
+        coverDown 1.5s 6s forwards,
+        hideElement 1.5s 8s forwards;
+}
+
+.shatner2{
+    object-fit: fill;
+    position: static;
+    width: 0;
+    object-position: top left;
+    z-index: 3;
+    animation: 
+        imgZoom 6s 14s forwards;
+}
+
+.footer{
+    position: absolute;
+    top:270;
+}
+
+.buybutton{
+    animation: 
+        fadeOut 2s 33s forwards;
+}
+
+.product{
+    position: absolute;
+    left: 5px;
+    height: 0px;
+    animation:
+        showProduct 1.5s 24s ease-in forwards;
+}
+  
+@keyframes rise {
+    0% {
+        transform: translateY(50%);
+        opacity: 0;
+        }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes imgZoom {
+  from { width: 280px }
+  to { width: 250px }
+}
+
+@keyframes coverDown {
+    to { top: -270px; }
+}
+
+@keyframes coverUp {
+    to { top: -180px; }
+}
+
+@keyframes liftFooter {
+  to { bottom: 180px }
+}
+
+@keyframes hideElement {
+  to { width:0;height: 0; }
+}
+
+@keyframes scene2c2 {
+  from { height: 90px; }
+  to { height: 270px; }
+}
+
+@keyframes scene3c3 {
+  from { height: 270; }
+  to { height: 90px; }
+}
+
+@keyframes fadeOut {
+  to { opacity: 0; }
+}
+
+@keyframes showProduct {
+    from { 
+        opacity: 0;
+        height: 130px;
+        top: -30px;
+    }
+    to { 
+        opacity: 1;
+        height: 130px;
+        top: 145px;
+    }
+}
+
+@keyframes pulse{
+    0% { transform: scale(1) }
+    50% { transform: scale(1.08) }
+    100% { transform: scale(1) }
+}

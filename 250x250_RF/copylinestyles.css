@@ -1,0 +1,115 @@
+.copyline{
+    position: relative;
+    animation-fill-mode: both;
+    animation-name: rise;
+    animation-duration: 1s;    
+}
+
+.line1{
+    padding-top: 15px;  
+}
+
+.line2{
+    animation-delay: .25s;
+}
+
+.line3{
+    animation-delay: .5s;   
+}
+
+.line4{
+    animation-delay: .75s;   
+}
+
+.line5{
+    animation-delay: 1s;   
+}
+.line6{
+    animation-delay: 1.25s;  
+}
+
+.line7{
+    padding-top: 50px;
+    animation-delay: 5.5s;  
+}
+
+.line8{
+    animation-delay: 6s;  
+}
+
+.line9{
+    animation-delay: 6.5s;    
+}
+
+.line10{
+    padding-top: 15px;
+    animation-delay: 10.75s;   
+}
+
+.line11{
+    animation-delay: 11s;   
+}
+
+.line12{
+    animation-delay: 11.25s;   
+}
+
+.line13{
+    animation-delay: 11.5s;  
+}
+
+.line14{
+    animation-delay: 11.75s;  
+}
+
+.line15{
+    animation-delay: 12s;  
+}
+
+.line16{
+    padding-top: 20px;
+    animation-delay: 17s;    
+}
+
+.line17{
+    animation-delay: 17.5s;  
+}
+
+.line18{
+    animation-delay: 17.75s;   
+}
+
+.line19{
+    animation-delay: 18s;    
+}
+
+.line20{
+    animation-delay: 18.25s;   
+}
+
+.line21{
+    padding-top: 15px;
+    animation-delay: 21.5s;    
+}
+
+.line22{
+    animation-delay: 21.75s;    
+}
+
+.line23{
+    animation-delay: 22s;  
+}
+
+.line24{
+    animation-delay: 22.25s;  
+}
+.line25{
+    animation-delay: 22.5s;  
+}
+
+.line26{
+    padding-top:5px;
+    animation: 
+        fadeIn 2s 22.75s both,
+        pulse 3s 24.5s 10 ease-in-out forwards;    
+}

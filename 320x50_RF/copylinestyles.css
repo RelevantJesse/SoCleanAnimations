@@ -1,0 +1,69 @@
+.copyline{
+    position: static;
+    animation-fill-mode: both;
+    animation-name: rise;
+    animation-duration: 1s;    
+}
+
+.line1{
+    padding-top: 8px;
+}
+
+.line2{
+    animation-delay: .25s;
+}
+
+.line3{
+    padding-top: 4px;
+    animation-delay: 4.5s;   
+}
+
+.line4{
+    animation-delay: 5s;   
+}
+
+.line5{
+    padding-top: 2px;
+    line-height: 10pt;
+    animation-delay: 9.75s;   
+}
+
+.line6{
+    animation-delay: 10s;    
+}
+
+.line7{
+    animation-delay: 10.25s;   
+}
+
+.line8{
+    padding-top: 8px;
+    animation-delay: 15.5s;    
+}
+
+.line9{
+    animation-delay: 16s;  
+}
+
+.line10{
+    padding-top: 1px;
+    animation-delay: 19.5s;   
+}
+
+.line11{
+    animation-delay: 19.75s; 
+}
+
+.line12{
+    animation-delay: 20s; 
+}
+
+.line13{
+    left: 110px;
+    top: 15px;
+    position: relative;
+    z-index: 100;
+    animation: 
+        fadeIn 2s 21.25s both,
+        pulse 3s 21.25s 10 ease-in-out forwards;    
+}

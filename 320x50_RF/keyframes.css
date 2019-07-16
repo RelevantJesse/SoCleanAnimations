@@ -1,0 +1,71 @@
+@keyframes rise {
+    0% {
+        transform: translateY(20%);
+        opacity: 0;
+        }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes liftFooter {
+  to { bottom: 180px }
+}
+
+@keyframes hideElement {
+  to { 
+      height: 0%;
+      visibility: hidden;
+    }
+}
+
+@keyframes showElement {
+  to { visibility: visible;}
+}
+
+@keyframes scene2c2slide {
+  from { width: 50%; }
+  to { width: 75%; }
+}
+
+@keyframes halfSlide {
+  from { width: 30%; }
+  to { width: 53%; }
+}
+
+@keyframes halfSlide2 {
+  from { width: 30%; }
+  to { width: 37%; }
+}
+
+@keyframes scene3c3slide {
+  from { width: 75%; }
+  to { width: 47%; }
+}
+
+@keyframes fadeOut {
+  to { opacity: 0; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes showProduct {
+    from { 
+        opacity: 0;
+        left: -220px;
+    }
+    to { 
+        opacity: 1;
+        left: 145px;
+    }
+}
+
+@keyframes pulse{
+    0% { transform: scale(1) }
+    50% { transform: scale(1.04) }
+    100% { transform: scale(1) }
+}

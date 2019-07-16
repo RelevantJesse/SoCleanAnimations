@@ -1,0 +1,67 @@
+.copy{
+    position: absolute;
+    height: 100%;
+    justify-content: center;    
+    display: flex;
+    flex-direction: column;
+    background-color: #3bb3e3; 
+}
+
+.copyline{
+    position: relative;
+    animation-fill-mode: both;
+    animation-name: rise;
+    animation-duration: 1s;    
+}
+
+.line1{
+}
+
+.line2{
+    animation-delay: .25s;
+}
+
+.line3{
+    animation-delay: 4.5s;   
+}
+
+.line4{
+    animation-delay: 5s;   
+}
+
+.line5{
+    animation-delay: 9.75s;   
+}
+
+.line6{
+    animation-delay: 10s;    
+}
+
+.line7{
+    animation-delay: 15.5s;    
+}
+
+.line8{
+    animation-delay: 16s;  
+}
+
+.line9{
+    animation-delay: 19.5s;   
+}
+
+.line10{
+    animation-delay: 19.75s; 
+}
+
+.line11{
+    position: absolute;
+    display: inline-block;
+    left: 290px;
+    width: 50px;
+    height: 10px;
+    top: 0;    
+    z-index: 100;
+    animation: 
+        fadeIn 2s 21.25s both,
+        pulse 3s 21.25s 10 ease-in-out forwards;    
+}

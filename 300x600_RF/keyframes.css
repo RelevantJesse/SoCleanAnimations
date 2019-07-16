@@ -1,0 +1,72 @@
+@keyframes rise {
+    0% {
+        transform: translateY(20%);
+        opacity: 0;
+        }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes imgZoom {
+  to { height: 100%; }
+}
+
+@keyframes coverDown {
+    to { top: -270px; }
+}
+
+@keyframes coverUp {
+    to { top: -180px; }
+}
+
+@keyframes hideElement {
+  to { 
+      height: 0%;
+      visibility: hidden;
+    }
+}
+
+@keyframes showElement {
+  to { visibility: visible;}
+}
+
+@keyframes scene2c2 {
+  from { height: 27%; }
+  to { height: 92%; }
+}
+
+@keyframes scene3c3 {
+  from { height: 92%; }
+  to { height: 27%; }
+}
+
+@keyframes fadeOut {
+  to { opacity: 0; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes showProduct {
+    from { 
+        opacity: 0;
+        top: -130px;
+        height: 375px;
+    }
+    to { 
+        opacity: 1;
+        height: 375px;
+        left:-415px;
+        top: 220px;
+    }
+}
+
+@keyframes pulse{
+    0% { transform: scale(1) }
+    50% { transform: scale(1.08) }
+    100% { transform: scale(1) }
+}
