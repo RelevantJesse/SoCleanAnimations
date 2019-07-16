@@ -14,6 +14,7 @@ src: url("HelveticaNeueLTStd-Blk.otf");
     border-color: black;
     color: white;
     font-size: 12pt;
+    line-height: 14pt;
     font-weight: bold;
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
@@ -28,9 +29,8 @@ src: url("HelveticaNeueLTStd-Blk.otf");
     position: absolute;
     width:47%;
     height:100%;
-    z-index: 10;
-    text-align: center;
-    background-color: #3bb3e3;   
+    z-index: 3;
+    text-align: center; 
     animation-delay: 3.25s;
     animation-name: hideElement;
     animation-fill-mode: forwards;
@@ -41,9 +41,8 @@ src: url("HelveticaNeueLTStd-Blk.otf");
     width:0px;
     height:100%;
     font-size: 14pt;
-    z-index: 9;
-    text-align: center;
-    background-color: #3bb3e3;    
+    z-index: 4;
+    text-align: center;   
     animation: 
         scene2c2slide 1.5s 3.25s forwards,
         hideElement 0s 8s forwards;
@@ -53,10 +52,10 @@ src: url("HelveticaNeueLTStd-Blk.otf");
     position: absolute;
     width:0px;
     height:100%;
-    z-index: 10;
-    font-size: 11pt;
+    z-index: 5;
+    font-size: 10pt;
+    line-height: 10pt;
     text-align: center;
-    vertical-align: middle;
     background-color: #3bb3e3;
     animation: 
         scene3c3slide 1.5s 8s forwards,
@@ -67,10 +66,9 @@ src: url("HelveticaNeueLTStd-Blk.otf");
     position: absolute;
     width:0px;
     height:100%;
-    z-index: 10;
-    background-color: #3bb3e3;
+    z-index: 6;
     animation: 
-        scene2c2slide 1.5s 13.25s ease-in forwards,
+        scene2c2slide 1.5s 13.25s forwards,
         hideElement 0s 19s forwards;
 }
 
@@ -79,10 +77,9 @@ src: url("HelveticaNeueLTStd-Blk.otf");
     width:0px;
     height:100%;
     text-align: center;
-    z-index: 10;
-    background-color: #3bb3e3;
+    z-index: 5;
     animation: 
-        halfSlide 1.5s 13.25s ease-in forwards,
+        halfSlide 1.5s 13.25s forwards,
         hideElement 0s 19s forwards;
 }
 
@@ -90,10 +87,9 @@ src: url("HelveticaNeueLTStd-Blk.otf");
     position: absolute;
     width:0px;
     height:100%;
-    z-index: 10;
-    background-color: #3bb3e3;
+    z-index: 6;
     animation: 
-        scene2c2slide 0s 19s ease-in forwards;
+        scene2c2slide 0s 19s forwards;
 }
 
 .copy5b{
@@ -101,12 +97,11 @@ src: url("HelveticaNeueLTStd-Blk.otf");
     width:0px;
     height:100%;
     text-align: center;
-    font-size: 11pt;
-    line-height: 12pt;
-    z-index: 15;
-    background-color: #3bb3e3;
+    font-size: 10pt;
+    line-height: 11pt;
+    z-index: 7;
     animation: 
-        halfSlide2 0s 19s ease-in forwards;
+        halfSlide2 0s 19s forwards;
 }
 
 .wrapper{
@@ -155,11 +150,11 @@ src: url("HelveticaNeueLTStd-Blk.otf");
 
 .product{
     position: absolute;
-    top: -4px;
+    top: 2px;
     opacity: 0;
-    height: 65px;
-    z-index: 10;
+    height: 55px;
+    z-index: 16;
     animation:
-        showProduct 3s 12.25s ease-in-out forwards;
+        showProduct 1.5s 13.25s forwards;
 }
  

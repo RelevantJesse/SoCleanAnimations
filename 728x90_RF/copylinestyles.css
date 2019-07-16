@@ -54,13 +54,10 @@
 }
 
 .line11{
-    position: absolute;
-    display: inline-block;
-    left: 290px;
-    width: 50px;
-    height: 10px;
-    top: 0;    
-    z-index: 100;
+    position: relative;
+    left: 285px;
+    width: 200px;
+    z-index: 14;
     animation: 
         fadeIn 2s 21.25s both,
         pulse 3s 21.25s 10 ease-in-out forwards;    

@@ -15,13 +15,14 @@
 
 @keyframes hideElement {
   to { 
-      height: 0%;
       visibility: hidden;
+      display: none;
+      width: 0;
     }
 }
 
 @keyframes showElement {
-  to { width: 60% }
+  to { visibility: visible;}
 }
 
 @keyframes scene2c2slide {
@@ -51,11 +52,11 @@
 @keyframes showProduct {
     from { 
         opacity: 0;
-        left: -220px;
+        left: 5px;
     }
     to { 
         opacity: 1;
-        left: 80px;
+        left: 87px;
     }
 }
 

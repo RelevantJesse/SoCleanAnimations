@@ -14,6 +14,7 @@ src: url("HelveticaNeueLTStd-Blk.otf");
     border-color: black;
     color: white;
     font-size: 16pt;
+    line-height: 20pt;
     font-weight: bold;
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
@@ -28,9 +29,8 @@ src: url("HelveticaNeueLTStd-Blk.otf");
     position: absolute;
     width:47%;
     height:100%;
-    z-index: 10;
-    text-align: center;
-    background-color: #3bb3e3;   
+    z-index: 3;
+    text-align: center;     
     animation-delay: 4s;
     animation-name: hideElement;
     animation-fill-mode: forwards;
@@ -40,9 +40,8 @@ src: url("HelveticaNeueLTStd-Blk.otf");
     position: absolute;
     width:0px;
     height:100%;
-    z-index: 9;
-    text-align: center;
-    background-color: #3bb3e3;    
+    z-index: 4;
+    text-align: center; 
     animation: 
         scene2c2slide 1.5s 4s forwards,
         hideElement 0s 9.5s forwards;
@@ -52,10 +51,9 @@ src: url("HelveticaNeueLTStd-Blk.otf");
     position: absolute;
     width:0px;
     height:100%;
-    z-index: 10;
+    z-index: 5;
+    line-height: 15pt;
     text-align: center;
-    vertical-align: middle;
-    background-color: #3bb3e3;
     animation: 
         scene3c3slide 1.5s 9.5s forwards,
         hideElement 0s 15s forwards;
@@ -65,22 +63,22 @@ src: url("HelveticaNeueLTStd-Blk.otf");
     position: absolute;
     width:0px;
     height:100%;
-    z-index: 10;
-    background-color: #3bb3e3;
+    z-index: 6;
     animation: 
-        scene2c2slide 1.5s 15s ease-in forwards,
+        scene2c2slide 1.5s 15s forwards,
         hideElement 0s 21.5s forwards;
 }
 
 .copy4b{
+    top: -6px;
     position: absolute;
     width:0px;
     height:100%;
     text-align: center;
-    z-index: 10;
-    background-color: #3bb3e3;
+    line-height: 15pt;
+    z-index: 7;
     animation: 
-        halfSlide 1.5s 15s ease-in forwards,
+        halfSlide 1.5s 15s forwards,
         hideElement 0s 21.5s forwards;
 }
 
@@ -88,10 +86,9 @@ src: url("HelveticaNeueLTStd-Blk.otf");
     position: absolute;
     width:0px;
     height:100%;
-    z-index: 10;
-    background-color: #3bb3e3;
+    z-index: 8;
     animation: 
-        scene2c2slide 0s 21s ease-in forwards;
+        scene2c2slide 0s 21s forwards;
 }
 
 .copy5b{
@@ -99,39 +96,42 @@ src: url("HelveticaNeueLTStd-Blk.otf");
     width:0px;
     height:100%;
     text-align: center;
-    font-size: 14pt;
-    z-index: 15;
-    background-color: #3bb3e3;
+    font-size: 13pt;
+    line-height: 14pt;
+    z-index: 9;
     animation: 
-        halfSlide 0s 21s ease-in forwards;
+        halfSlide 0s 21s forwards;
 }
 
 .wrapper{
     position: absolute;
-    left: 150px;
-    height:100%;
+    top: 0;
+    width: 31%;
+    left: 170px;
     animation: 
-        hideElement 2s 17s forwards;
+        hideElement 2s 19s forwards;
 }
 
 .shatner1{
     object-fit: fill;
-    position: static;
-    height: 100%;
-    z-index: -1;
+    position: relative;
+    left:-25px; 
+    width:95%;
+    z-index: 3;
     animation:
-        hideElement 0s 5.5s forwards;
+        hideElement 0s 7s forwards;
 }
 
 .shatner2{
     object-fit: fill;
-    position: static;
-    width:0%;
-    object-position: top left;
+    position: relative;
+    left:-17px;
+    height:100%;
+    visibility: hidden;
     z-index: 3;
     animation: 
-        showElement 0s 5.5s both,
-        hideElement 0s 17s forwards;
+        showElement 0s 4.75s both,
+        hideElement 0s 19s forwards;
 }
 
 .footer{
@@ -151,11 +151,11 @@ src: url("HelveticaNeueLTStd-Blk.otf");
 
 .product{
     position: absolute;
-    top: -2px;
+    top: 4px;
     opacity: 0;
-    height: 120px;
+    height: 110px;
     z-index: 10;
     animation:
-        showProduct 2s 15s ease-in-out forwards;
+        showProduct 1.5s 15s forwards;
 }
  

@@ -56,16 +56,16 @@
 @keyframes showProduct {
     from { 
         opacity: 0;
-        left: -220px;
+        left: 75px;
     }
     to { 
         opacity: 1;
-        left: 145px;
+        left: 155px;
     }
 }
 
 @keyframes pulse{
-    0% { transform: scale(1) }
-    50% { transform: scale(1.04) }
-    100% { transform: scale(1) }
+    0% { transform: scale(1); transform-origin: center center; }
+    50% { transform: scale(1.04); transform-origin: center center;}
+    100% { transform: scale(1); transform-origin: center center; }
 }
